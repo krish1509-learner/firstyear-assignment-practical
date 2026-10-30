@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krish Sharma | Portfolio</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background: #f8fafc;
+      }
+      header {
+        background: #0f2c59;
+        color: white;
+        padding: 22px 8%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 14px;
+      }
+      header h1 {
+        font-size: 1.5rem;
+      }
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav a:hover {
+        color: #e9c46a;
+      }
+      .hero {
+        padding: 70px 8%;
+        background: linear-gradient(135deg, #dbeafe, #f8fafc);
+        text-align: center;
+      }
+      .hero h2 {
+        color: #0f2c59;
+        font-size: 2.3rem;
+      }
+      .hero p {
+        max-width: 650px;
+        margin: 12px auto;
+      }
+      main {
+        max-width: 1050px;
+        margin: auto;
+        padding: 24px;
+      }
+      section {
+        background: white;
+        margin: 20px 0;
+        padding: 26px;
+        border: 1px solid #e2e8f0;
+        border-radius: 12px;
+        box-shadow: 0 4px 14px rgba(15, 44, 89, 0.06);
+        scroll-margin-top: 12px;
+      }
+      section h2 {
+        color: #0f2c59;
+        margin-bottom: 12px;
+      }
+      .skills,
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 14px;
+      }
+      .item {
+        background: #f1f5f9;
+        border-left: 4px solid #00a896;
+        border-radius: 8px;
+        padding: 14px;
+      }
+      a {
+        color: #087e8b;
+      }
+      nav a {
+        color: white;
+      }
+      footer {
+        text-align: center;
+        background: #0f2c59;
+        color: white;
+        padding: 18px;
+        margin-top: 30px;
+      }
+      @media (max-width: 600px) {
+        header {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        nav {
+          gap: 10px;
+        }
+        .hero {
+          padding: 45px 6%;
+        }
+        .hero h2 {
+          font-size: 1.8rem;
+        }
+        main {
+          padding: 12px;
+        }
+        section {
+          padding: 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Krish Sharma</h1>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <div class="hero">
+      <h2>Hello, I'm Krish!</h2>
+      <p>
+        A first-year B.Tech student exploring web development, programming, and
+        creative technology.
+      </p>
+    </div>
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I am a curious learner interested in building useful, accessible, and
+          responsive websites. I enjoy improving my programming skills through
+          practical projects.
+        </p>
+      </section>
+      <section id="education">
+        <h2>Education</h2>
+        <div class="item">
+          <h3>Bachelor of Technology (B.Tech)</h3>
+          <p>Ajeenkya DY Patil University, Pune</p>
+          <p>First Year</p>
+        </div>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+          <div class="item">HTML5 and CSS3</div>
+          <div class="item">JavaScript — learning</div>
+          <div class="item">Java</div>
+          <div class="item">Python</div>
+          <div class="item">Responsive Web Design</div>
+        </div>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+          <article class="item">
+            <h3>Personal Portfolio</h3>
+            <p>
+              A responsive webpage introducing my education, skills, projects,
+              and contact details.
+            </p>
+          </article>
+          <article class="item">
+            <h3>KaushalDrishti</h3>
+            <p>
+              A project concept for tracking training outcomes and career
+              progress.
+            </p>
+          </article>
+          <article class="item">
+            <h3>Practice Programs</h3>
+            <p>
+              Small Java and Python programs created while learning programming
+              fundamentals.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact Information</h2>
+        <p>
+          Email:
+          <a href="mailto:krishsharma15092007@gmail.com"
+            >krishsharma15092007@gmail.com</a
+          >
+        </p>
+        <p>
+          GitHub:
+          <a href="https://github.com/krish1509-learner"
+            >github.com/krish1509-learner</a
+          >
+        </p>
+        <p>
+          Replace the sample email and GitHub username with your actual contact
+          details before submitting.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2026 Krish Sharma. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
